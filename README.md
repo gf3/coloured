@@ -33,6 +33,12 @@ Extras are used the same as colours.
 * underline
 * reverse
 
+## Installation
+
+With npm: `npm install coloured`
+
+With git: `git clone git://github.com/gf3/coloured.git`
+
 ## API
 
 When `require`'d this module returns a Colour object with the following methods
@@ -54,7 +60,7 @@ and properties.
 
 * `name` - Extra name (e.g. `"bold"`). **Required**.
 
-## Properties
+### Properties
 
 `Colour.colours → Object` Object containing colour names and values.
 
