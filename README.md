@@ -1,11 +1,13 @@
 # Coloured
 
-This is a node.js port of [defunkt's colored](http://github.com/defunkt/colored).
+Pretty colours in your terminal. This is a node.js port of [defunkt's colored](http://github.com/defunkt/colored).
 
     console.log( "this is red".red() )
     console.log( "this is red with a blue background (read: ugly)".red_on_blue() )
     console.log( "this is red with an underline".red().underline() )
     console.log( "this is really bold and really blue".bold().blue() )
+
+![Screenshot](http://img.gf3.ca/f57a391eee7a035cf53fc689fdbdd553.png)
 
 For more examples see `example/example.js`.
 

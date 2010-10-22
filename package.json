@@ -1,5 +1,5 @@
 { "name" : "coloured"
-, "description": "Pretty colors in your terminal."
+, "description": "Pretty colours in your terminal."
 , "author" : "Gianni Chiappetta <gianni@runlevel6.org> (http://gf3.ca)"
 , "version" : "0.1.0"
 , "main" : "./lib/coloured"
