@@ -49,7 +49,7 @@ and properties.
 
 `Colour.extendString( nativeProto ) → Undefined`
 
-* `native` - Prototype to extend. Default: `String.prototype`.
+* `nativeProto` - Prototype to extend. Default: `String.prototype`.
 
 `Colour.colourise( string, options ) → String`
 
