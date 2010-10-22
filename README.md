@@ -7,7 +7,7 @@ Pretty colours in your terminal. This is a node.js port of [defunkt's colored](h
     console.log( "this is red with an underline".red().underline() )
     console.log( "this is really bold and really blue".bold().blue() )
 
-![Screenshot](http://img.gf3.ca/f57a391eee7a035cf53fc689fdbdd553.png)
+![Screenshot](http://img.gf3.ca/4f615cb56fb1a090ff4e36eb88247258.png)
 
 For more examples see `example/example.js`.
 
