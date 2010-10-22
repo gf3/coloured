@@ -1,5 +1,5 @@
 var Colour = require( '../lib/coloured' )
-
+Colour.extendString()
 console.log( "\n" )
 
 console.log( "this is red".red() )

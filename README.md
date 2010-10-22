@@ -2,6 +2,7 @@
 
 Pretty colours in your terminal. This is a node.js port of [defunkt's colored](http://github.com/defunkt/colored).
 
+    Colour.extendString()
     console.log( "this is red".red() )
     console.log( "this is red with a blue background (read: ugly)".red_on_blue() )
     console.log( "this is red with an underline".red().underline() )
@@ -45,6 +46,10 @@ When `require`'d this module returns a Colour object with the following methods
 and properties.
 
 ### Methods
+
+`Colour.extendString( nativeProto ) → Undefined`
+
+* `native` - Prototype to extend. Default: `String.prototype`.
 
 `Colour.colourise( string, options ) → String`
 
